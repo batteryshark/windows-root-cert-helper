@@ -1,0 +1,10 @@
+# Auto-detect text files and normalize repository storage.
+* text=auto
+
+# Keep build and source files friendly to WSL/Linux tooling.
+.gitattributes text eol=lf
+Makefile text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+*.md text eol=lf
+*.sh text eol=lf
